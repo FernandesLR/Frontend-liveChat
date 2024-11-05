@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.display{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    padding: 1.48rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.qtdMsg{
+    background-color: rgb(201, 230, 230);
+    padding: 2%;
+    width: 1.9rem;
+    height: 1rem;
+    border-radius: 12px;
+    font-weight: bold;
+}
