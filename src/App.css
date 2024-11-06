@@ -11,16 +11,29 @@
 
 .header{
     display: flex;
+    width: 100%;
     padding: 1.48rem;
     gap: 1rem;
     align-items: center;
+    border-bottom: 2px solid rgb(219, 219, 219);
 }
+
 
 .qtdMsg{
     background-color: rgb(201, 230, 230);
     padding: 2%;
-    width: 1.9rem;
+    width: 1.2rem;
     height: 1rem;
     border-radius: 12px;
     font-weight: bold;
+    text-align: center;
+}
+
+.searchbar{
+    margin : 1rem 4rem;
+    padding: 5% 10%;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 9px;
+    outline: none;
 }
