@@ -17,7 +17,7 @@
     align-items: center;
     border-bottom: 2px solid rgb(219, 219, 219);
 }
-.header
+
 
 
 .qtdMsg{
@@ -31,8 +31,9 @@
 }
 
 .searchbar{
-    margin : 1rem 4rem;
+    margin : 1rem 3rem;
     padding: 5% 10%;
+    width: 70%;
     background-color: rgb(240, 240, 240);
     border: none;
     border-radius: 9px;
@@ -65,4 +66,18 @@
 .row p{
     margin-left: auto;
     padding-right: 0.6rem;
+}
+
+.rightSide{
+    display: grid;
+    margin-left: 3%;
+    border-left: 2px solid black;
+}
+
+.displayChat{
+    height: 100vh;  
+}
+
+.chat{
+    height: 80vh;
 }
