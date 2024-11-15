@@ -1,10 +1,9 @@
-// arquivo UserRow.jsx
 import { useState } from 'react';
 import avatar from '../assets/avatar.png';  // Certifique-se de que o caminho do avatar está correto
 
 export function UserRow({ user }) {
     const [bgColor, setBgColor] = useState('transparent'); // Inicialmente transparente
-    
+
     return (
         <div
             className="row"

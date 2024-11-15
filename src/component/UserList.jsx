@@ -1,5 +1,3 @@
-// arquivo UserList.jsx
-
 import { UserRow } from './UserRow';
 
 export function UserList() {
