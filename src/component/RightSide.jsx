@@ -3,7 +3,7 @@ import { DisplayChat } from "./DisplayChat"
 export function RightSide(){
     return(
         <div className="rightSide">
-            <UserRow/>
+            <UserRow user={{id:5, name:"head", lastMS:"Online"}}/>
             <DisplayChat />
         </div>
         
