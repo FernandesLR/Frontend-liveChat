@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import avatar from '../assets/avatar.png';  // Certifique-se de que o caminho do avatar está correto
 
-export function UserRow({ user }) {
+export function UserRow({ user, className = "row" }) {
     const [bgColor, setBgColor] = useState('transparent'); // Inicialmente transparente
 
     return (
         <div
-            className="row"
+            className={className}
             onClick={() => setBgColor('#f6f6fe')}  // Muda a cor de fundo ao clicar
             style={{ backgroundColor: bgColor }}  // Aplica o bgColor do estado como cor de fundo
         >
@@ -16,6 +16,7 @@ export function UserRow({ user }) {
                 <span>{user.name}</span>
                 <p>{user.lastMS}</p>
             </div>
+
             <p style={{ color: 'rgb(183, 184, 185)', fontWeight: 'bold' }}>
                 {user.min !== undefined ? `${user.min}m` : "--"}
             </p>
